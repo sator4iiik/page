@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Aim</title>
+    </head>
+    <body>
+        <div class="screen">
+            <h1>AIM TRN</h1>
+                <a href="#" class="start" id="start">start</a>
+        </div>
+
+        <div class="screen">
+            <h1>set time</h1>
+            <ul class="time-list" id="time-list">
+                <li>
+                    <button class="time-btn" data-time="10">
+                        10 cek
+                    </button>
+                </li>
+                <li>
+                    <button class="time-btn" data-time="20">
+                        20 cek
+                    </button>
+                </li>
+                <li>
+                    <button  class="time-btn" data-time="30">
+                        30 cek
+                    </button>
+                </li>
+                <li>
+                    <button  class="time-btn" data-time="60">
+                        60 cek
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="screen">
+            <h3>time left <span id="time">00:00</span></h3>
+            <div class="board" id="board"></div>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
